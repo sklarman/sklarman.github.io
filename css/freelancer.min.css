@@ -193,11 +193,14 @@ header.masthead h2{
 @media (min-width:520px) {
     .moving-pic {
         float:right; 
+        padding: 20px;
     }
 }
 @media (max-width:520px){
     .moving-pic {
         display: block;
+        padding-right: 10px;
+        padding-bottom: 20px;
         margin-left: auto;
         margin-right: auto;
     }
