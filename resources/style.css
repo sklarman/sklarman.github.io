@@ -1,0 +1,243 @@
+article,
+.about,
+.center {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.outer {
+    position: absolute;
+    display: table;
+    min-width: 450px;
+    height: 98%;
+    width: 98%;
+    overflow: scroll;
+ }
+
+.name {
+    color: #313538;
+    font: normal 36px/normal "Advent Pro", Helvetica, sans-serif;
+    text-align: center;
+    letter-spacing: 30px;
+    word-wrap: break-word;
+    margin-top: 4%;
+}
+
+.topmenu {
+    color: #313538;
+    font: lighter 30px/1 "Oswald", Helvetica, sans-serif;
+    text-align: center;
+    padding: 5px;
+    min-width: 700px;
+    word-spacing: 120px;
+    margin-top: 4%;
+    background: #EAEAEA;
+}
+
+.center {
+    display: table;
+    max-width: 1400px;
+    min-width: 800px;
+    margin: auto;
+    margin-top: 4%;
+}
+
+.center-content {
+    position: relative;
+    display: table;
+    min-width: 400px;
+    width: calc(1120px + ((100vw - 1510px) / 2));
+    margin-top: 4%;
+}
+
+aside {
+    display: table-cell;
+    vertical-align: top;
+    width: calc(270px + 1vw);
+}
+
+.mypic {
+    display: table-cell;
+    padding: 30px;
+    width: 270px;
+    height: 300px;
+    margin-right: 10px;
+  }
+
+aside ul{list-style-type:none;}
+
+.menu {
+    display: block;
+    padding: 25px;
+    text-align: right;
+    min-width: 210px;
+    width: calc(210px + ((100vw - 1350px) / 2));
+    font: lighter 28px/1 "Oswald", Helvetica, sans-serif; color: #313538;
+    margin-right: 10px;
+    margin-top: 0px;
+    border-right:1px solid #CCC;
+}
+
+.menu a {
+    display: block;
+    margin-bottom: 0px;
+}
+
+.menu-proving {
+    display: block;
+    padding: 25px;
+    text-align: right;
+    min-width: 210px;
+    width: calc(210px + ((100vw - 1350px) / 2));
+    font: lighter 28px/1 "Oswald", Helvetica, sans-serif; color: #313538;
+    margin-right: 10px;
+    margin-top: 0px;
+    border-right:1px solid #CCC;
+}
+
+.menu-proving a {
+    display: block;
+    margin-bottom: 18px;
+}
+
+.about-box {
+    display: table-cell;
+    font: 22px/1 "Yanone Kaffeesatz", Helvetica, sans-serif;
+    max-width: 700px;
+    padding: 5px;
+}
+
+article {
+    display: table-cell;
+    font: 400 22px/1 "Yanone Kaffeesatz", Helvetica, sans-serif;
+    max-width: 700px;
+    padding: 5px;
+}
+
+article b {
+    font-weight: 700;
+}
+
+.about {
+    display: table-cell;
+    max-width: 700px;
+    color: #313538;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.content {
+    display: block;
+    color: #313538;
+    text-align: left;
+    padding: 20px;
+    margin-top: -25px;
+}
+
+
+.myblock {
+    display: table-cell;
+    vertical-align: top;
+    width: 280px;
+    height: 280px;
+}
+
+#mynetwork {
+    display: table-cell;
+    padding: 5px;
+    width: 230px;
+    height: 230px;
+}
+
+.contact {
+    position: relative;
+    color: #313538;
+    font: normal 18px/normal "Advent Pro", Helvetica, sans-serif;
+    text-align: left;
+    letter-spacing: 5px;
+    margin-top: 40px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.pre-block {
+    font: normal 17px/1 "courier";
+    overflow-x: scroll; 
+    white-space: pre;
+    width: 54vw;
+    max-width: 695px;
+    background: #EAEAEA;
+    padding: 10px;
+}
+
+.cite-block {
+    background: #EAEAEA;
+    padding: 10px;
+    width: 54vw;
+    max-width: 695px;
+}
+
+a {
+    text-decoration:none;
+    color: #de2e2e;
+}
+
+a:hover
+{
+    color: #B00000;
+    cursor:pointer;
+}
+
+.visualisation {
+    display: block;
+    overflow: scroll;
+    padding: 10px;
+    width: 97%;
+    height: 30vw;
+    border: 1px solid #EAEAEA;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.closeDiv {
+    display: block;
+    float: right;
+    text-align:right;
+
+}
+
+.poweredDiv {
+    display: inline-block;
+    text-align:left;
+}
+
+.acmDiv {
+    display: block;
+    padding: 10px;
+    width: 97%;
+    border: 1px solid #EAEAEA;
+    margin-bottom: -10px;
+    text-align:left;
+    margin-top: 15px;
+}
+
+m {
+    color: #406E8D;
+    font-weight: 700;
+}
+
+.ccs {
+    font: lighter 21px/1 "Oswald", Helvetica, sans-serif; color: #406E8D;
+    
+}
+
+input {
+    padding: 10px;
+    font: lighter 21px/1 "Oswald", Helvetica, sans-serif; color: #406E8D;
+    
+}
