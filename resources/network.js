@@ -1,6 +1,5 @@
 var nodes = new vis.DataSet([
         {id: 1, title: '#me', image: 'resources/rdf.png', shape: 'image', url: 'resources/foaf.rdf'},
-        {id: 2, title: 'Facebook', image: 'resources/facebook-logo-grey.png', shape: 'image', url: 'https://www.facebook.com/szymon.klarman'},
         {id: 3, title: 'GitHub', image: 'resources/github-8-xxl.png', shape: 'image', url: 'https://github.com/sklarman'},
         {id: 4, title: 'Twitter', image: 'resources/twitter-xxl.png', shape: 'image', url: 'https://twitter.com/szymonklarman'},
         {id: 5, title: 'Google Scholar', image: 'resources/gs.png', shape: 'image', url: 'https://scholar.google.com/citations?user=F-yv6acAAAAJ&hl=pl'},
@@ -14,7 +13,6 @@ var nodes = new vis.DataSet([
  
    // create an array with edges
    var edges = new vis.DataSet([
-        {from: 1, to: 2},
         {from: 1, to: 3},
         {from: 1, to: 4},
         {from: 1, to: 5},
