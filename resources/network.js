@@ -18,12 +18,13 @@ var nodes = new vis.DataSet([
         {from: 1, to: 4},
         {from: 1, to: 5},
         {from: 1, to: 6},
-        {from: 1, to: 7},
         {from: 1, to: 8},
         {from: 1, to: 9},
         {from: 1, to: 10},
         {from: 1, to: 11}
    ]);
+
+   //{from: 1, to: 7},
  
    // create a network
    var container = document.getElementById('mynetwork');
