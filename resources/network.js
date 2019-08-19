@@ -4,12 +4,13 @@ var nodes = new vis.DataSet([
         {id: 4, title: 'Twitter', image: 'resources/twitter-xxl.png', shape: 'image', url: 'https://twitter.com/szymonklarman'},
         {id: 5, title: 'Google Scholar', image: 'resources/gs.png', shape: 'image', url: 'https://scholar.google.com/citations?user=F-yv6acAAAAJ&hl=pl'},
         {id: 6, title: 'LinkedIn', image: 'resources/in.jpg', shape: 'image', url: 'https://uk.linkedin.com/in/szymon-klarman-a05a0680'},
-        {id: 7, title: 'CV', image: 'resources/cv.png', shape: 'image', url: 'resources/Klarman_CV.pdf'},
         {id: 8, title: 'Great, Greater, Greatest...', image: 'resources/moto.png', shape: 'image', url: 'http://wielka-wieksza-najwieksza.yolasite.com'},
         {id: 9, title: 'Blast from the past!', image: 'resources/bass.png', shape: 'image', url: 'http://033258.wixsite.com/cloneoriginal'},
         {id: 10, title: 'SlideShare', image: 'resources/slideshare.png', shape: 'image', url: 'http://slideshare.net/SzymonKlarman'},
         {id: 11, title: 'Medium', image: 'resources/medium.png', shape: 'image', url: 'http://medium.com/@sklarman'}
    ]);
+
+//    {id: 7, title: 'CV', image: 'resources/cv.png', shape: 'image', url: 'resources/Klarman_CV.pdf'},
  
    // create an array with edges
    var edges = new vis.DataSet([
