@@ -86,6 +86,6 @@ var nodes = new vis.DataSet([
                  }});  
 
 network.once("stabilized", function () { 
-     network.fit({animation:{duration:1000, easingFunction:"easeInOutCubic"}, nodes:[1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ,11]});    
+     network.fit({animation:{duration:1000, easingFunction:"easeInOutCubic"}, nodes:[1, 3, 4, 5, 6, 10 ,11]});    
 });
     
