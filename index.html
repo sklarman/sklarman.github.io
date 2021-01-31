@@ -30,12 +30,14 @@
         prefix="
           foaf: http://xmlns.com/foaf/0.1/
           rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
-          rdfs: http://www.w3.org/2000/01/rdf-schema#"
+          rdfs: http://www.w3.org/2000/01/rdf-schema#
+          owl: http://www.w3.org/2002/07/owl#"
         >
         <div typeof="foaf:Person" about="http://klarman.me/#me">
           <div rel="foaf:homepage">
             <div typeof="foaf:PersonalProfileDocument" about="http://klarman.me">
               <div rel="foaf:primaryTopic" resource="http://klarman.me/#me"></div>
+              <div rel="owl:sameAs" resource="http://www.wikidata.org/entity/Q102440319"></div>
               <div rel="foaf:maker" resource="http://klarman.me/#me"></div>
             </div>
           </div>
