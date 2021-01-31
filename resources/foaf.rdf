@@ -4,6 +4,7 @@
       xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
       xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
       xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:owl="http://www.w3.org/2002/07/owl#"
       xml:base="http://klarman.me/">
 
 <foaf:PersonalProfileDocument rdf:about="http://klarman.me">
@@ -15,6 +16,7 @@
   <foaf:givenName>Szymon</foaf:givenName>
   <foaf:familyName>Klarman</foaf:familyName>
   <foaf:homepage rdf:resource="http://klarman.me"/>
+  <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q102440319"/>
   <foaf:mbox>szymon@klarman.me</foaf:mbox>
   <foaf:depiction rdf:resource="http://klarman.me/resources/photo.png"/>
   <foaf:knows>
