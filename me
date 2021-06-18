@@ -1,10 +1,5 @@
 {
-    "@context": {
-        "owl": "http://www.w3.org/2002/07/owl#",
-        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "foaf": "http://xmlns.com/foaf/0.1/",
-        "@base": "http://klarman.me/"
-    },
+    "@context": "https://klarman.me/context.json",
     "@id": "me",
     "@type": "foaf:Person",
     "owl:sameAs": {
@@ -18,11 +13,13 @@
     "foaf:name": "Szymon Klarman",
     "foaf:knows": [
         {
+            "@id": "#ss",
             "@type": "foaf:Person",
             "rdfs:seeAlso": "http://www.few.vu.nl/~schlobac/",
             "foaf:name": "Stefan Schlobach"
         },
         {
+            "@id": "#fvh",
             "@type": "foaf:Person",
             "rdfs:seeAlso": "http://www.cs.vu.nl/~frank.van.harmelen/",
             "foaf:name": "Frank van Harmelen"
