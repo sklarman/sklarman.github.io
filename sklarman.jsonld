@@ -1,7 +1,7 @@
 {
     "@context": "http://schema.org",
     "@id": "http://klarman.me",
-    "@type": "Person"
+    "@type": "Person",
     "sameAs": {
         "@id": "http://www.wikidata.org/entity/Q102440319"
     },
@@ -22,7 +22,7 @@
             "name": "Stefan Schlobach",
             "sameAs": {
                 "@id": "http://www.wikidata.org/entity/Q57235666"
-            },
+            }
         },
         {
             "@id": "#fvh",
@@ -31,7 +31,7 @@
             "name": "Frank van Harmelen",
             "sameAs": {
                 "@id": "http://www.wikidata.org/entity/Q5490605"
-            },
+            }
         }
     ]
 }
