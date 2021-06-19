@@ -1,0 +1,34 @@
+{
+    "@context": {   
+        "@vocab": "http://schema.org",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    },
+    "@id": "me",
+    "@type": "Person"
+    "sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q102440319"
+    },
+    "image": "http://klarman.me/resources/photo.png",
+    "familyName": "Klarman",
+    "givenName": "Szymon",
+    "url": "https://klarman.me",
+    "email": "szymon@klarman.me",
+    "name": "Szymon Klarman",
+    "worksFor": {
+       "@id": "http://epistemik.co"
+    },
+    "knows": [
+        {
+            "@id": "#ss",
+            "@type": "Person",
+            "rdfs:seeAlso": "http://www.few.vu.nl/~schlobac/",
+            "name": "Stefan Schlobach"
+        },
+        {
+            "@id": "#fvh",
+            "@type": "Person",
+            "rdfs:seeAlso": "http://www.cs.vu.nl/~frank.van.harmelen/",
+            "name": "Frank van Harmelen"
+        }
+    ]
+}
