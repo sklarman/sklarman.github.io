@@ -1,5 +1,5 @@
 var nodes = new vis.DataSet([
-        {id: 1, title: '#me', image: 'resources/rdf.png', shape: 'image', url: 'sklarman.jsonld'},
+        {id: 1, title: '#me', image: 'resources/rdf.png', shape: 'image', url: 'data.jsonld'},
         {id: 3, title: 'GitHub', image: 'resources/github-8-xxl.png', shape: 'image', url: 'https://github.com/sklarman'},
         {id: 4, title: 'Twitter', image: 'resources/twitter-xxl.png', shape: 'image', url: 'https://twitter.com/szymonklarman'},
         {id: 5, title: 'Google Scholar', image: 'resources/gs.png', shape: 'image', url: 'https://scholar.google.com/citations?user=F-yv6acAAAAJ&hl=pl'},
