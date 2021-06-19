@@ -22,44 +22,48 @@
     <link href="resources/icon.jpg" rel="shortcut icon" type="image/x-icon" />
     <link href="resources/icon.jpg" rel="icon" type="image/x-icon" />
        
+   <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@id": "me",
+    "@type": "Person"
+    "sameAs": {
+        "@id": "http://www.wikidata.org/entity/Q102440319"
+    },
+    "image": "http://klarman.me/resources/photo.png",
+    "familyName": "Klarman",
+    "givenName": "Szymon",
+    "url": "https://klarman.me",
+    "email": "szymon@klarman.me",
+    "name": "Szymon Klarman",
+    "worksFor": {
+       "@id": "http://epistemik.co"
+    },
+    "knows": [
+        {
+            "@id": "#ss",
+            "@type": "Person",
+            "url": "http://www.few.vu.nl/~schlobac/",
+            "name": "Stefan Schlobach",
+            "sameAs": {
+                "@id": "http://www.wikidata.org/entity/Q57235666"
+            },
+        },
+        {
+            "@id": "#fvh",
+            "@type": "Person",
+            "url": "http://www.cs.vu.nl/~frank.van.harmelen/",
+            "name": "Frank van Harmelen",
+            "sameAs": {
+                "@id": "http://www.wikidata.org/entity/Q5490605"
+            },
+        }
+    ]
+}
+  </script>
     </head>
 
 <body>
-
-        <div xmlns="http://www.w3.org/1999/xhtml"
-        prefix="
-          foaf: http://xmlns.com/foaf/0.1/
-          rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
-          rdfs: http://www.w3.org/2000/01/rdf-schema#
-          owl: http://www.w3.org/2002/07/owl#"
-        >
-        <div typeof="foaf:Person" about="http://klarman.me/#me">
-          <div rel="owl:sameAs" resource="http://www.wikidata.org/entity/Q102440319"></div>
-          <div rel="foaf:homepage">
-            <div typeof="foaf:PersonalProfileDocument" about="http://klarman.me">
-              <div rel="foaf:primaryTopic" resource="http://klarman.me/#me"></div>
-              <div rel="foaf:maker" resource="http://klarman.me/#me"></div>
-            </div>
-          </div>
-          <div property="foaf:givenName" content="Szymon"></div>
-          <div property="foaf:familyName" content="Klarman"></div>
-          <div property="foaf:mbox" content="szymon@klarman.me"></div>
-          <div rel="foaf:depiction" resource="http://klarman.me/resources/photo.png"></div>
-          <div rel="foaf:knows">
-            <div typeof="foaf:Person">
-              <div property="foaf:name" content="Frank van Harmelen"></div>
-              <div rel="rdfs:seeAlso" resource="http://www.cs.vu.nl/~frank.van.harmelen/"></div>
-            </div>
-          </div>
-          <div property="foaf:name" content="Szymon Klarman"></div>
-          <div rel="foaf:knows">
-            <div typeof="foaf:Person">
-              <div property="foaf:name" content="Stefan Schlobach"></div>
-              <div rel="rdfs:seeAlso" resource="http://www.few.vu.nl/~schlobac/"></div>
-            </div>
-          </div>
-        </div>
-      </div>
       
     <div class="outer">
         <div class="name">SZYMON KLARMAN</div>
