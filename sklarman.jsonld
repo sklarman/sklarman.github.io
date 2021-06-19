@@ -1,6 +1,6 @@
 {
     "@context": "http://schema.org",
-    "@id": "me",
+    "@id": "http://klarman.me",
     "@type": "Person"
     "sameAs": {
         "@id": "http://www.wikidata.org/entity/Q102440319"
