@@ -1,8 +1,5 @@
 {
-    "@context": {   
-        "@vocab": "http://schema.org",
-        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-    },
+    "@context": "http://schema.org",
     "@id": "me",
     "@type": "Person"
     "sameAs": {
@@ -21,14 +18,20 @@
         {
             "@id": "#ss",
             "@type": "Person",
-            "rdfs:seeAlso": "http://www.few.vu.nl/~schlobac/",
-            "name": "Stefan Schlobach"
+            "url": "http://www.few.vu.nl/~schlobac/",
+            "name": "Stefan Schlobach",
+            "sameAs": {
+                "@id": "http://www.wikidata.org/entity/Q57235666"
+            },
         },
         {
             "@id": "#fvh",
             "@type": "Person",
-            "rdfs:seeAlso": "http://www.cs.vu.nl/~frank.van.harmelen/",
-            "name": "Frank van Harmelen"
+            "url": "http://www.cs.vu.nl/~frank.van.harmelen/",
+            "name": "Frank van Harmelen",
+            "sameAs": {
+                "@id": "http://www.wikidata.org/entity/Q5490605"
+            },
         }
     ]
 }
