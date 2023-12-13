@@ -1,7 +1,7 @@
 var nodes = new vis.DataSet([
         {id: 1, title: '#me', image: 'resources/rdf.png', shape: 'image', url: 'data.jsonld'},
         {id: 3, title: 'GitHub', image: 'resources/github-8-xxl.png', shape: 'image', url: 'https://github.com/sklarman'},
-        {id: 4, title: 'Twitter', image: 'resources/twitter-xxl.png', shape: 'image', url: 'https://twitter.com/szymonklarman'},
+        {id: 4, title: 'X', image: 'resources/x-xxl.png', shape: 'image', url: 'https://twitter.com/szymonklarman'},
         {id: 5, title: 'Google Scholar', image: 'resources/gs.png', shape: 'image', url: 'https://scholar.google.com/citations?user=F-yv6acAAAAJ&hl=pl'},
         {id: 6, title: 'LinkedIn', image: 'resources/in.jpg', shape: 'image', url: 'https://uk.linkedin.com/in/szymon-klarman-a05a0680'},
         {id: 7, title: 'Wikidata', image: 'resources/wd.png', shape: 'image', url: 'https://www.wikidata.org/wiki/Q102440319'},
