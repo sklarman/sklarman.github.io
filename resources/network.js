@@ -6,7 +6,7 @@ var nodes = new vis.DataSet([
         {id: 6, title: 'LinkedIn', image: 'resources/in.jpg', shape: 'image', url: 'https://uk.linkedin.com/in/szymon-klarman-a05a0680'},
         {id: 7, title: 'Wikidata', image: 'resources/wd.png', shape: 'image', url: 'https://www.wikidata.org/wiki/Q102440319'},
         // {id: 8, title: 'Great, Greater, Greatest...', image: 'resources/moto.png', shape: 'image', url: 'http://wielka-wieksza-najwieksza.yolasite.com'},
-        // {id: 9, title: 'Blast from the past!', image: 'resources/bass.png', shape: 'image', url: 'http://033258.wixsite.com/cloneoriginal'},
+        {id: 9, title: 'Blast from the past!', image: 'resources/bass.png', shape: 'image', url: 'https://www.youtube.com/watch?v=FXGZxz_aguc'},
         {id: 10, title: 'SlideShare', image: 'resources/slideshare.png', shape: 'image', url: 'http://slideshare.net/SzymonKlarman'},
         {id: 11, title: 'Medium', image: 'resources/medium.png', shape: 'image', url: 'http://medium.com/@sklarman'},
         {id: 12, title: 'Google AI', image: 'resources/google-ai-search.png', shape: 'image', url: 'https://www.google.com/search?q=Who+is+Szymon+Klarman%3F&udm=50'}
@@ -22,7 +22,7 @@ var nodes = new vis.DataSet([
         {from: 1, to: 6},
         {from: 1, to: 7},
         // {from: 1, to: 8},
-        // {from: 1, to: 9},
+        {from: 1, to: 9},
         {from: 1, to: 10},
         {from: 1, to: 11},
         {from: 1, to: 12}
