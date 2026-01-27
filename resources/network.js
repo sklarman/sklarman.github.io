@@ -9,7 +9,8 @@ var nodes = new vis.DataSet([
        // {id: 9, title: 'Blast from the past!', image: 'resources/bass.png', shape: 'image', url: 'https://www.youtube.com/watch?v=FXGZxz_aguc'},
         {id: 10, title: 'SlideShare', image: 'resources/slideshare.png', shape: 'image', url: 'http://slideshare.net/SzymonKlarman'},
         {id: 11, title: 'Medium', image: 'resources/medium.png', shape: 'image', url: 'http://medium.com/@sklarman'},
-        {id: 12, title: 'Google AI', image: 'resources/google-ai-search.png', shape: 'image', url: 'https://www.google.com/search?q=Who+is+Szymon+Klarman%3F&udm=50'}
+        {id: 12, title: 'Google AI Search', image: 'resources/google-ai-search.png', shape: 'image', url: 'https://www.google.com/search?q=Who+is+Szymon+Klarman%3F&udm=50'},
+        {id: 13, title: 'Google Knowledge Graph', image: 'resources/google-search.png', shape: 'image', url: 'https://www.google.com/search?kgmid=/g/11f0zc5209'}
    ]);
 
 //    {id: 7, title: 'CV', image: 'resources/cv.png', shape: 'image', url: 'resources/Klarman_CV.pdf'},
@@ -25,7 +26,8 @@ var nodes = new vis.DataSet([
         // {from: 1, to: 9},
         {from: 1, to: 10},
         {from: 1, to: 11},
-        {from: 1, to: 12}
+        {from: 1, to: 12},
+        {from: 1, to: 13}
    ]);
 
    
